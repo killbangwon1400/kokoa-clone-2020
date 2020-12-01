@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat w/1 - Kakao Clone</title>
+</head>
+<body id="chat-screen">
+  <div class="status-bar">
+    <div class="status-bar_column">
+        <span>No Service</span> 
+        <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar_column">
+        <span>22:03</span>
+    </div>
+    <div class="status-bar_column">
+        <span>76%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+    </div>  
+  </div>
+
+  <header class="alt-header">
+      <div class="alt-header__column">
+        <a class="nav__link" href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+          <h1 class="alt-header__title">박불방</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+  </header>
+
+  <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        Sunday, November 29, 2020
+      </div>
+
+      <div class="message-row">
+          <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDEyMDJfMTAy/MDAxNjA2ODM2MDQxNjg4.9Mn6jONkBX9eB3PFnFWzx2BTBrP-gGSchf4lnHWLdUkg.gH6ikyC9_teTJ13kWl3sxZ63rDVdo6i6x0Wx5zezplog.JPEG.bckc77/%EC%B9%B4%ED%86%A1-%ED%94%84%EB%A1%9C%ED%95%84_%EC%82%AC%EC%A7%84%28%EB%B0%95%EB%B6%88%EB%B0%A9%29.jpeg?type=w800">
+          <div class="message-row__content">
+            <span class="message__author">박불방</span>
+            <div class="message__bubble">
+                <span class="message__info">가현이는 요즘 뭐하고 지낸데?</span>
+                <span class="message__time">18:27</span>
+            </div>
+          </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__bubble">
+              <span class="message__info">맞다 님 가현이 좋아한다는게 트루임?</span>
+              <span class="message__time">18:29</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row">
+        <img src="https://mblogthumb-phinf.pstatic.net/MjAyMDEyMDJfMTAy/MDAxNjA2ODM2MDQxNjg4.9Mn6jONkBX9eB3PFnFWzx2BTBrP-gGSchf4lnHWLdUkg.gH6ikyC9_teTJ13kWl3sxZ63rDVdo6i6x0Wx5zezplog.JPEG.bckc77/%EC%B9%B4%ED%86%A1-%ED%94%84%EB%A1%9C%ED%95%84_%EC%82%AC%EC%A7%84%28%EB%B0%95%EB%B6%88%EB%B0%A9%29.jpeg?type=w800">
+        <div class="message-row__content">
+          <span class="message__author">박불방</span>
+          <div class="message__bubble">
+              <span class="message__info">ㅇㅇ.. 걍 모른척해줘</span>
+              <span class="message__time">18:30</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__bubble">
+              <span class="message__info">찐이었네ㄷㄷ</span>
+              <span class="message__time">18:30</span>
+          </div>
+        </div>
+      </div>
+
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="far fa-plus-square fa-lg"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message...">
+      <i class="far fa-smile fa-lg"></i>
+      <button>
+        <i class="fas fa-arrow-up"></i>
+      </button>
+    </div>
+  </form>
+
+  <div id="no-mobile">
+    <span>Your screen is too big ㅠㅠ<br>Please, reduce your screen</span>
+  </div>
+
+  <script src="https://kit.fontawesome.com/133cfe7d70.js"
+   crossorigin="anonymous"
+   ></script>  
+</body>
+</html>
