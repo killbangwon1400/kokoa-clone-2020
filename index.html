@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css ">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kakao Clone</title>
+</head>
+<body>
+  <div class="status-bar">
+    <div class="status-bar_column">
+        <span>No Service</span> 
+        <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar_column">
+        <span>18:43</span>
+    </div>
+    <div class="status-bar_column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+    </div>  
+  </div>
+
+  <header class="welcome-header">
+    <h1 class="welcome-header_title">Welcome to Kakao Clone</h1>
+    <p class="welcome-header_text">If you have a Kakao Account,
+        log in with your email or phone number. </p>
+  </header>
+
+  <form action="friends.html" method="GET" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number"><br>
+      <input name="password" type="text" placeholder="Password"><br>
+      <input type="submit" value="Log In"><br>
+      <a href="#">Find Kakao Account or Password</a>
+  </form>
+
+  <div id="no-mobile">    <!-- 이건 모든 html파일에 있어야 해 -->
+    <span>Your screen is too big ㅠㅠ<br>Please, reduce your screen</span>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/133cfe7d70.js"
+   crossorigin="anonymous"
+   ></script>  
+</body>
+</html>
+
+
+
+<!-- reletive: 해당 div안에서 움직임
+               body > div > .class 라고 했을 때
+               div를 position:reletive 지정해주면, .class가 div안에서만 놀아.
+     absolute: div가 아닌 body 기준으로 움직임.
+               absolute는 가장 가까운 reletive를 기준으로 움직여.
+               바로 위 부모가 div라고 했을 때 div에 reletive가 없으면 그 위에 있는 
+               body로 감. 
+-->
